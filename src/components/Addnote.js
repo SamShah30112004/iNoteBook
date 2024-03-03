@@ -26,7 +26,7 @@ const Addnote = () => {
 
   return (
     <div className="my-3">
-      <h2>Add a Note</h2>
+      <h2>Add a Blog</h2>
       <form>
         <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label">
@@ -36,7 +36,7 @@ const Addnote = () => {
         </div>
         <div className="mb-3">
           <label htmlFor="description" className="form-label">
-            Description
+            Content
           </label>
           <textarea type="text" className="form-control" id="description" name="description" onChange={onChange} value={note.description} minLength={5} rows={8} />
         </div>

@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoURL = "mongodb://127.0.0.1:27017/inotebook";
+mongoURL = "mongodb+srv://admin:2090103254.chits.mun@cluster0.38febzf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/iBlog";
 
 connectToMongo = async () => {
   await mongoose.connect(mongoURL);
